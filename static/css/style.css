@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+.alerts-section {
+    margin: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    padding: 20px;
+}
+
+.alerts-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.alert-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.alert-item {
+    display: flex;
+    justify-content: space-between;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.alert-icon i {
+    font-size: 1.5rem;
+}
+
+.alert-icon.error {
+    color: #e74c3c;
+}
+
+.alert-icon.warning {
+    color: #f39c12;
+}
+
+.alert-icon.info {
+    color: #3498db;
+}
+
+.alert-content {
+    flex: 1;
+    margin-left: 15px;
+}
+
+.alert-actions .alert-btn {
+    padding: 6px 12px;
+    background: #4a6fa5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.alert-btn:hover {
+    background: #3c5b89;
+}
